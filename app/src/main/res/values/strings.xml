@@ -7,4 +7,11 @@
     <string name="login">Login</string>
     <string name="create_account">Create Account</string>
     <string name="user_name">User Name</string>
+    <string name="have_account">Have Account !!</string>
+    <string name="chat_app">Chat App</string>
+    <string name="create_new_room">Create New Room</string>
+    <string name="enter_room_name">Enter Room Name</string>
+    <string name="enter_room_description">Enter Room Description</string>
+    <string name="create">Create</string>
+    <string name="type_message_here">Type message here</string>
 </resources>

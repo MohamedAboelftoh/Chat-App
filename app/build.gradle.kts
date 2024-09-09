@@ -2,6 +2,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
+    id ("com.google.gms.google-services")
+    id ("kotlin-parcelize")
 }
 
 android {
@@ -50,4 +52,10 @@ dependencies {
     val lifecycle_version = "2.6.2"
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+    implementation (platform("com.google.firebase:firebase-bom:32.5.0"))
+    implementation ("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
+    implementation("com.google.firebase:firebase-firestore")
+    implementation ("androidx.fragment:fragment-ktx:1.6.2")
+
 }
